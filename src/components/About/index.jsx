@@ -1,6 +1,5 @@
 import React from 'react'
 import * as S from "./style"
-import { Line } from '../../global/GlobalStyle'
 import salt from "../../assets/images/salt.png"
 import Subtitle from '../Subtitle'
 
