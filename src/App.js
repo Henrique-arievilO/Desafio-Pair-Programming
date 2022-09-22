@@ -1,13 +1,17 @@
-import React from 'react'
-import { Globalstyle } from "./Global/Globalstyle";
-import Routes from './services/routes'
+import React from "react";
+import { Globalstyle } from "./global/GlobalStyle";
 
 export default function App() {
-
-  return (
-    <>
-      <Globalstyle />
-      <Routes />
-    </>
-  )
+	return (
+		<>
+			<Globalstyle />
+			{/* 
+        <Header/>
+        <Recipes/>
+        <About/>
+        <Subscribe/>
+        <Footer/>
+      */}
+		</>
+	);
 }
