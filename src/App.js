@@ -1,10 +1,11 @@
 import React from "react";
-import { Globalstyle } from "./global/GlobalStyle";
+import About from "./components/About";
+import { GlobalStyle } from "./global/GlobalStyle.js";
 
 export default function App() {
 	return (
 		<>
-			<Globalstyle />
+			<GlobalStyle />
 			{/* 
         <Header/>
         <Recipes/>
@@ -12,6 +13,7 @@ export default function App() {
         <Subscribe/>
         <Footer/>
       */}
+			<About />
 		</>
 	);
 }

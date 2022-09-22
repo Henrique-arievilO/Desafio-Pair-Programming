@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 *{
@@ -21,12 +21,21 @@ export const GlobalStyle = createGlobalStyle`
     
     --cardSize: 25%;
 
-    --padSection: 1rem;
+    --padSectionMob: 4rem 1rem;
+}
+
+body{
+    width: 100%;
+    color: var(--gray900)
+}
+
+p{
+    font-size: 20px;
 }
 `;
 
 export const Line = styled.div`
-	height: 0.2rem;
-	width: 2rem;
+	height: 0.35rem;
+	width: 4rem;
 	background: var(--gray900);
 `;
