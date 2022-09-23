@@ -21,7 +21,8 @@ export const GlobalStyle = createGlobalStyle`
     
     --cardSize: 25%;
 
-    --padSectionMob: 4rem 1rem;
+    --padSection: 12%;
+    --padSectionMob: 5rem 1.5rem;
 }
 
 body{
@@ -35,7 +36,7 @@ p{
 `;
 
 export const Line = styled.div`
-	height: 0.35rem;
+	height: 0.3rem;
 	width: 4rem;
 	background: var(--gray900);
 `;

@@ -20,7 +20,7 @@ export const Img = styled.img`
 `;
 export const Text = styled.div`
 	width: 50%;
-	padding: 10%;
+	padding: var(--padSection);
 
 	background: white;
 

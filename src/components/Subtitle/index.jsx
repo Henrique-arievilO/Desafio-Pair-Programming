@@ -13,15 +13,14 @@ const Box = styled.div`
 const SubtitleText = styled.h2`
   font-size: 40px;
   text-transform: uppercase;
-
 `
 
 
 export default function Subtitle(p) {
   return (
     <Box>
-          <SubtitleText>{p.subtitle}</SubtitleText>
-          <Line/>
+          <SubtitleText>{p.name}</SubtitleText>
+          {p.line ? <Line/> : null}
     </Box>
   )
 }
