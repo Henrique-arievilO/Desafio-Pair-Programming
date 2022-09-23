@@ -55,6 +55,7 @@ export const Btn = styled.button`
 
 	background: transparent;
 	border: 6px solid var(--gray900);
+	cursor: pointer;
 
 	@media (max-width: 425px) {
 		width: 100%;
