@@ -8,7 +8,7 @@ export const FooterStyle = styled.footer`
 
 export const MediaNav = styled.div`
 	width: 100%;
-	height: 18rem;
+	min-height: 18rem;
 	padding: 0 6%;
 
 	background: var(--gray100);
@@ -16,6 +16,16 @@ export const MediaNav = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	@media (max-width: 900px) {
+		flex-direction: column-reverse;
+		justify-content: center;
+		gap: 3rem;
+	}
+
+	@media (max-width: 500px) {
+		padding: var(--padSectionMob);
+	}
 `;
 
 export const MediaIcons = styled.div`
@@ -36,6 +46,10 @@ export const Nav = styled.nav`
 		justify-content: space-evenly;
 		align-items: center;
 		gap: 3rem;
+
+		@media (max-width: 500px) {
+			flex-direction: column;
+		}
 	}
 
 	a {
@@ -60,5 +74,16 @@ export const Credits = styled.section`
 		width: fit-content;
 		color: white;
 		font-size: 16px;
+		text-align: center;
+
+		@media (max-width: 800px) {
+			font-size: 10px;
+		}
+		@media (max-width: 500px) {
+			font-size: 8px;
+		}
+		@media (max-width: 400px) {
+			font-size: 6px;
+		}
 	}
 `;
