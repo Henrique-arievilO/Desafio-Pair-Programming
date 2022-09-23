@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
 	width: 100%;
-	min-height: 20rem;
+	min-height: 15rem;
 	padding: var(--padSection);
 	background: var(--green100);
 
@@ -18,13 +18,18 @@ export const Section = styled.section`
 `;
 export const Info = styled.p`
 	font-size: 30px;
+	text-align: center;
+
+	@media (max-width: 425px) {
+		font-size: 25px;
+	}
 `;
 
 export const Input = styled.input`
 	width: 55%;
 	min-width: 500px !important;
 	height: 6rem;
-	padding: 0 2rem 0;
+	padding: 0 2rem;
 	margin: 2.5rem 0 2rem;
 	font-size: 20px;
 
@@ -33,6 +38,12 @@ export const Input = styled.input`
 
 	background: var(--gray150);
 	border: none;
+
+	&:focus {
+		outline: none;
+		border-top: 6px solid transparent;
+		border-bottom: 6px solid white;
+	}
 
 	@media (max-width: 600px) {
 		width: 100%;
@@ -49,6 +60,7 @@ export const Btn = styled.button`
 
 	background: transparent;
 	border: 6px solid var(--gray900);
+	cursor: pointer;
 
 	@media (max-width: 425px) {
 		width: 100%;
