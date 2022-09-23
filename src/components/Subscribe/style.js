@@ -18,6 +18,11 @@ export const Section = styled.section`
 `;
 export const Info = styled.p`
 	font-size: 30px;
+	text-align: center;
+
+	@media (max-width: 425px) {
+		font-size: 25px;
+	}
 `;
 
 export const Input = styled.input`
