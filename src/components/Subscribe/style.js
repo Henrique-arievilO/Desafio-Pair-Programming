@@ -34,6 +34,12 @@ export const Input = styled.input`
 	background: var(--gray150);
 	border: none;
 
+	&:focus {
+		outline: none;
+		border-top: 6px solid transparent;
+		border-bottom: 6px solid white;
+	}
+
 	@media (max-width: 600px) {
 		width: 100%;
 		height: 5rem;
