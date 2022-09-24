@@ -75,6 +75,7 @@ export const Credits = styled.section`
 		color: white;
 		font-size: 16px;
 		text-align: center;
+		font-family: 'Roboto', sans-serif;
 
 		@media (max-width: 800px) {
 			font-size: 10px;

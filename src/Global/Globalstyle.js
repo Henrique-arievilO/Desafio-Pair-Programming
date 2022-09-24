@@ -1,4 +1,6 @@
 import styled, { createGlobalStyle } from "styled-components";
+// import HurmeRegular from "../assets/fonts/HurmeRegular.otf"
+// import HurmeSemiBold from "../assets/fonts/HurmeSemiBold.otf"
 
 export const GlobalStyle = createGlobalStyle`
 *{
@@ -7,7 +9,8 @@ export const GlobalStyle = createGlobalStyle`
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    color: var(--gray900);
+    font-family: var(--fontStyle);
 }
 
 :root{
@@ -23,6 +26,8 @@ export const GlobalStyle = createGlobalStyle`
 
     --padSection: 12%;
     --padSectionMob: 5rem 1.5rem;
+
+    --fontStyle: 'Poppins', sans-serif;
 }
 
 body{
@@ -31,7 +36,7 @@ body{
 }
 
 p{
-    font-size: 20px;
+    font-size: 16px;
 }
 `;
 
@@ -40,3 +45,11 @@ export const Line = styled.div`
 	width: 4rem;
 	background: var(--gray900);
 `;
+
+// export const FontStyle = createGlobalStyle`
+//     @font-face {
+//         font-family: 'Hurme Geometric';
+//         src: url(${HurmeRegular}) format(otf),
+//              url(${HurmeSemiBold}) format(otf);
+//     }
+// `
