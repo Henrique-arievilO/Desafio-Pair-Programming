@@ -5,10 +5,10 @@
 <i>Projeto desenvolvido como desafio referente ao módulo 2 do curso Vai na Web de desenvolvimento front-end. </i><br><br>
 
 <div align="center">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/sophiacrds/Desafio-Pair-Programming?color=khaki">
-    <img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/sophiacrds/Desafio-Pair-Programming?color=white">
-    <img alt="GitHub Total lines" src="https://img.shields.io/tokei/lines/github/sophiacrds/Desafio-Pair-Programming?color=white">
-    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/sophiacrds/Desafio-Pair-Programming?color=white">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Wanderson-Henrique-Oliveira/Desafio-Pair-Programming?color=khaki">
+    <img alt="GitHub Repository Size" src="https://img.shields.io/github/repo-size/Wanderson-Henrique-Oliveira/Desafio-Pair-Programming?color=white">
+    <img alt="GitHub Total lines" src="https://img.shields.io/tokei/lines/github/Wanderson-Henrique-Oliveira/Desafio-Pair-Programming?color=white">
+    <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/Wanderson-Henrique-Oliveira/Desafio-Pair-Programming?color=white">
 
 </div><br>
 
