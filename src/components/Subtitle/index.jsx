@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Line } from "../../global/GlobalStyle";
 
 const Box = styled.div`
     height: 4rem;
@@ -22,7 +23,7 @@ export default function Subtitle(p) {
   return (
     <Box>
       <SubtitleText>{p.name}</SubtitleText>
-      {/* {p.line ? <Line /> : null} */}
+      {p.line ? <Line /> : null}
     </Box>
   )
 }

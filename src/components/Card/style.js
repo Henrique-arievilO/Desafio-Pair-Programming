@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Line } from "../../global/GlobalStyle";
 
 export const Card = styled.div`
 	width: 25rem;
