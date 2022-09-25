@@ -32,7 +32,11 @@ export const GlobalStyle = createGlobalStyle`
 
 body{
     width: 100%;
-    color: var(--gray900)
+    color: var(--gray900);
+
+    ::-webkit-scrollbar{
+        display: none;
+    };
 }
 
 p{
