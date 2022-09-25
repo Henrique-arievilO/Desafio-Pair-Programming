@@ -14,7 +14,7 @@
 
 Nesse projeto, fomos instigados a trabalhar em dupla para entregar uma landing-page moderna e minimalista.
 
-Todos os parâmetros foram combinados previamente e não houveram problemas sensíveis na execução. O resultado final ficou uniforme e padronizado, ao mesmo tempo em que conseguiu expressar nossa personalidade no código.
+Todos os parâmetros foram combinados previamente e não houve problemas sensíveis na execução. O resultado final ficou uniforme e padronizado, ao mesmo tempo em que conseguiu expressar nossa personalidade no código.
 
 Como melhoria futura, pretendemos colocar o botão mobile em funcionamento.
 
@@ -32,4 +32,5 @@ Como melhoria futura, pretendemos colocar o botão mobile em funcionamento.
 
 <div align="center">
     <a href="https://www.linkedin.com/in/sophia-leão-733880101/" alt="Linkedin"><img src="https://img.shields.io/badge/-Sophia Leão-white?style=flat&logo=Linkedin&logoColor=black"></a>
+    <a href="https://www.linkedin.com/in/wanderson-henrique-oliveira-74b718235/" alt="Linkedin"><img src="https://img.shields.io/badge/-Wanderson Henrique-white?style=flat&logo=Linkedin&logoColor=black"></a>
 </div>
