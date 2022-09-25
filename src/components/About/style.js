@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Section = styled.section`
 	width: 100%;
-	min-height: 45rem;
+	min-height: 40rem;
 	display: flex;
 
 	@media (max-width: 768px) {
@@ -21,9 +21,7 @@ export const Img = styled.img`
 export const Text = styled.div`
 	width: 50%;
 	padding: var(--padSection);
-
 	background: white;
-
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

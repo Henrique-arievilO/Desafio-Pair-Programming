@@ -8,7 +8,7 @@ export const FooterStyle = styled.footer`
 
 export const MediaNav = styled.div`
 	width: 100%;
-	min-height: 18rem;
+	min-height: 15rem;
 	padding: 0 6%;
 
 	background: var(--gray100);
@@ -57,7 +57,13 @@ export const Nav = styled.nav`
 	}
 
 	li {
-		font-size: 22px;
+		font-size: 1.2rem;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+
+		&:hover {
+			font-weight: bold;
+		}
 	}
 `;
 
@@ -75,7 +81,7 @@ export const Credits = styled.section`
 		color: white;
 		font-size: 16px;
 		text-align: center;
-		font-family: 'Roboto', sans-serif;
+		font-family: "Roboto", sans-serif;
 
 		@media (max-width: 800px) {
 			font-size: 10px;

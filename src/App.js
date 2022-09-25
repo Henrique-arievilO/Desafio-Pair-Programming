@@ -4,13 +4,12 @@ import Recipes from "./components/Recipes";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Subscribe from "./components/Subscribe";
-import { GlobalStyle } from "./Global/GlobalStyle.js";
+import { GlobalStyle } from "./global/GlobalStyle";
 
 export default function App() {
 	return (
 		<>
 			<GlobalStyle />
-
 			<Header />
 			<About />
 			<Recipes />
