@@ -1,5 +1,4 @@
 import React from "react"
-import { Line } from "../../Global/GlobalStyle"
 import styled from "styled-components"
 
 const Box = styled.div`
@@ -23,7 +22,7 @@ export default function Subtitle(p) {
   return (
     <Box>
       <SubtitleText>{p.name}</SubtitleText>
-      {p.line ? <Line /> : null}
+      {/* {p.line ? <Line /> : null} */}
     </Box>
   )
 }
