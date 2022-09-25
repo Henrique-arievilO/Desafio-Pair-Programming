@@ -24,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     
     --cardSize: 25%;
 
-    --padSection: 12%;
+    --padSection: 8%;
     --padSectionMob: 5rem 1.5rem;
 
     --fontStyle: 'Poppins', sans-serif;

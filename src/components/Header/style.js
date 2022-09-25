@@ -22,4 +22,8 @@ export const Title = styled.h1`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	@media (max-width: 500px) {
+		font-size: 4rem;
+	}
 `;

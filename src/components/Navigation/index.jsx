@@ -9,15 +9,15 @@ export default function Header() {
 				<img src={Logo} alt="logo" />
 			</S.Logo>
 			<S.Navigation>
-				<S.Li>
-					<S.Link href="#about">about</S.Link>
-				</S.Li>
-				<S.Li>
-					<S.Link href="#recipes">recipes</S.Link>
-				</S.Li>
-				<S.Li>
-					<S.Link href="#subscribe">subscribe</S.Link>
-				</S.Li>
+				<S.Link href="#about">
+					<S.Li>about</S.Li>
+				</S.Link>
+				<S.Link href="#recipes">
+					<S.Li>recipes</S.Li>
+				</S.Link>
+				<S.Link href="#subscribe">
+					<S.Li>subscribe</S.Li>
+				</S.Link>
 			</S.Navigation>
 			<S.Button></S.Button>
 		</S.Nav>
